@@ -68,13 +68,13 @@ Future plans:
 
 OS-level installs
 - aws-cli (AWS tooling)
-    . Install it on local machine
-    . Create an account using IAM in the AWS Console
-    . Configure the aws cli with `aws configure` and the above account
+    - [ ] Install it on local machine
+    - [ ] Create an account using IAM in the AWS Console
+    - [ ] Configure the aws cli with `aws configure` and the above account
         - Project will use default local account, but can be given other accounts via `--profile $CUSTOM` flag 
 - volta (Node tooling)
-    . Install in on local machine
-    . Install Node v20
+    - [ ] Install in on local machine
+    - [ ] Install Node v20
 - Postman
     - For API testing
 
@@ -84,16 +84,16 @@ Configuration
 
 ### Developing
 
-. Clone repo
+- [ ] Clone repo
     - Update names in `.projenrc.ts`
-. Install node packages `npm i`
-. Synthesize the project with `projen synth`
-. Build project with `projen build`
-. Test project with `projen test`
-. Deploy (after green outputs from above)
+- [ ] Install node packages `npm i`
+- [ ] Synthesize the project with `projen synth`
+- [ ] Build project with `projen build`
+- [ ] Test project with `projen test`
+- [ ] Deploy (after green outputs from above)
     - `projen deploy`
     - Deployment will output the apiEndpoint or URL
-. Destroy
+- [ ] Destroy
     - `project destroy`
 
 ### Using the api
